@@ -86,7 +86,6 @@ button {
   font-size: 14px;
   color: white;
 }
-
 .box_1 {
   display: flex;
   justify-content: space-between;
@@ -101,13 +100,13 @@ button {
 
 .boxes_1 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 45%;
 }
 
 .boxes_2 {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 45%;
 }
 
@@ -159,16 +158,18 @@ button {
   }
 
   .boxes_1 {
-    width: 90%;
-    display: block;
+    display: flex;
+    flex-direction: column;
   }
 
+  .boxes_2 {
+    display: flex;
+    flex-direction: column;
+  }
   .icon-box-1,
   .icon-box-2,
   .icon-box-3 {
-    margin: 0;
-    width: 460px;
-    height: 80px;
+    width: 100%;
     text-align: center;
   }
 
@@ -180,11 +181,6 @@ button {
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .boxes_2 {
-    width: 90%;
-    display: block;
   }
 
   .info-2 {
@@ -229,14 +225,14 @@ button {
 
   .boxes_1 {
     display: flex;
-    justify-content: column-reverse;
-    width: 45%;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   .boxes_2 {
     display: flex;
-    justify-content: space-between;
-    width: 45%;
+    justify-content: space-evenly;
+    width: 100%;
   }
 
   .icon-box-1,
